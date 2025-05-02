@@ -1,0 +1,80 @@
+.virtual-table-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.virtual-table-scroll-container {
+  height: 100%;
+  overflow: auto;
+  position: relative;
+}
+
+.virtual-table-header-container {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.virtual-table-header {
+  margin-bottom: 0 !important;
+  border-bottom: none !important;
+}
+
+.virtual-table-header .ant-table-thead > tr > th {
+  background-color: #fafafa;
+}
+
+.virtual-table-body-container {
+  position: relative;
+}
+
+.virtual-table-row-container {
+  width: 100%;
+}
+
+.virtual-table-row {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  border-top: none !important;
+}
+
+.virtual-table-row .ant-table-thead {
+  display: none;
+}
+
+.virtual-table-row .ant-table-tbody > tr:first-child > td {
+  border-top: none;
+}
+
+.virtual-table-row .ant-table-tbody > tr > td {
+  transition: none;
+}
+
+.virtual-table-loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.virtual-table-loading-more {
+  padding: 12px 0;
+  text-align: center;
+  color: #1890ff;
+  cursor: pointer;
+}
+
+.virtual-table-load-more {
+  background-color: #f0f2f5;
+  padding: 8px 0;
+  text-align: center;
+  border-top: 1px solid #e8e8e8;
+}

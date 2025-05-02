@@ -1,0 +1,103 @@
+WebSocket服务器运行在 ws://localhost:8080/ws
+HTTP服务器运行在 http://localhost:8080
+客户端已连接
+收到消息: {
+  type: 'task_status',
+  payload: { action: 'list' },
+  timestamp: 1746191218436,
+  id: 'req_1746191218436_umc88i8cq'
+}
+客户端已断开连接
+客户端已连接
+收到消息: {
+  type: 'task_status',
+  payload: { action: 'list' },
+  timestamp: 1746191218508,
+  id: 'req_1746191218508_gj5oa4rr0'
+}
+收到消息: {
+  type: 'heartbeat',
+  payload: { timestamp: 1746191248509 },
+  timestamp: 1746191248509
+}
+收到消息: {
+  type: 'heartbeat',
+  payload: { timestamp: 1746191278510 },
+  timestamp: 1746191278510
+}
+收到消息: {
+  type: 'heartbeat',
+  payload: { timestamp: 1746191308814 },
+  timestamp: 1746191308814
+}
+收到消息: {
+  type: 'heartbeat',
+  payload: { timestamp: 1746191338511 },
+  timestamp: 1746191338511
+}
+收到消息: {
+  type: 'heartbeat',
+  payload: { timestamp: 1746191368818 },
+  timestamp: 1746191368818
+}
+收到消息: {
+  type: 'heartbeat',
+  payload: { timestamp: 1746191398808 },
+  timestamp: 1746191398808
+}
+收到消息: {
+  type: 'heartbeat',
+  payload: { timestamp: 1746191455810 },
+  timestamp: 1746191455810
+}
+收到消息: {
+  type: 'heartbeat',
+  payload: { timestamp: 1746191515816 },
+  timestamp: 1746191515816
+}
+收到消息: {
+  type: 'heartbeat',
+  payload: { timestamp: 1746191575806 },
+  timestamp: 1746191575807
+}
+收到消息: {
+  type: 'heartbeat',
+  payload: { timestamp: 1746191635804 },
+  timestamp: 1746191635804
+}
+收到消息: {
+  type: 'heartbeat',
+  payload: { timestamp: 1746191695804 },
+  timestamp: 1746191695804
+}
+收到消息: {
+  type: 'heartbeat',
+  payload: { timestamp: 1746191755802 },
+  timestamp: 1746191755802
+}
+收到消息: {
+  type: 'heartbeat',
+  payload: { timestamp: 1746191815801 },
+  timestamp: 1746191815801
+}
+收到消息: {
+  type: 'heartbeat',
+  payload: { timestamp: 1746191875804 },
+  timestamp: 1746191875804
+}
+收到消息: {
+  type: 'heartbeat',
+  payload: { timestamp: 1746191935802 },
+  timestamp: 1746191935802
+}
+收到消息: {
+  type: 'heartbeat',
+  payload: { timestamp: 1746191995807 },
+  timestamp: 1746191995807
+}
+收到消息: {
+  type: 'heartbeat',
+  payload: { timestamp: 1746192055812 },
+  timestamp: 1746192055812
+}
+客户端已断开连接
